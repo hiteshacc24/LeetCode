@@ -18,7 +18,7 @@ public class MinJumps {
         return jumps[array.length - 1];
     }
     public static void main(String[] args) {
-        int[] arr = {3,4,2,1,2,3,7,1,1,1,3};
+        int[] arr = {1,0,1,0};
         int result = minNumberJumps(arr);
         System.out.print(result);
     }
